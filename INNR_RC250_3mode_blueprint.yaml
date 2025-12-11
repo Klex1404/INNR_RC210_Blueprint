@@ -5,7 +5,7 @@
 
 blueprint:
   domain: automation
-  name: INNR RC250 remote 3 mode blueprint
+  name: INNR RC210 remote 3 mode blueprint
   description: >-
     Blueprint that puts the INNR RC250 five button remote to use for different scenarios. It can either assign an action to each button press ('fixed mode'), cycle through a list of five scenes ('cycle mode'), or control color and brightness of one or more lights (color mode)
   author: Allard Katan
@@ -31,7 +31,7 @@ blueprint:
           filter:
             - integration: "zha"
               manufacturer: "innr"
-              model: "RC 250"
+              model: "RC 210"
     input_helper:
       name: input helper
       selector:
